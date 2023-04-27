@@ -1,0 +1,34 @@
+---
+compiled_package_info:
+  package_name: ICO
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    ico_mod: 66fa02a4c9519e866edf04b044b2a0f47f4f7b789bb87965cce27dafdd823bcc
+    publisher: a9f715f996c6174c4ce5eebfc68cc359936741d430657824885c9b158b7382da
+    source_addr: 21a086aa8690771397d4bf5156901b9b0789785629eef2ddc04d36a55511e021
+    source_address: 51e726bf41d3d64da4eef7da015ea252067e1dda741aec2984de46ca802257d3
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 7DD6A5AA27E2AA4A7FBE538107C0519FF36269FDEC149CE4C35F3EC8054DC4EF
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      ico_mod: 66fa02a4c9519e866edf04b044b2a0f47f4f7b789bb87965cce27dafdd823bcc
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib
+  - apt-coin

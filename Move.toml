@@ -1,0 +1,9 @@
+[package]
+name = 'ICO'
+version = '1.0.0'
+[dependencies]
+AptosFramework = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'main', subdir = 'aptos-move/framework/aptos-framework'}
+apt-coin = { git = "https://github.com/md-sanjaykumar/aptos-coin-demo.git" , subdir = "", rev = "main"}
+[addresses]
+ico_mod = "_"
+source_address = "51e726bf41d3d64da4eef7da015ea252067e1dda741aec2984de46ca802257d3"
